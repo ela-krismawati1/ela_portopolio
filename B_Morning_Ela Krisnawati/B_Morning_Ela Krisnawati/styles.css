@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    overflow: hidden;
+    background-color: #def1fa;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: #000000;
+    margin: 0px 50px;
+}
+
+.logo img {
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+
+.links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    margin: 0 35px;
+}
+
+.links li a {
+    color: #2a2929;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+
+.links li a:hover {
+    color: #1070FF;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 1;
+    padding: 80px;
+    padding-top: 0;
+}
+
+.left-section h1 {
+    font-size: 46px;
+    margin: 10px 0px;
+}
+
+.left-section .p1 {
+    font-size: 12px;
+    color: #E7B10A;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.left-section span {
+    color: #1070FF;
+    font-size: 86px;
+}
+
+.btn {
+    background-color: #1070FF;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0px;
+    transition: transform 0.3s ease;
+}
+
+
+.btn:hover {
+    background-color: #3076de;
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+.left-section .icons {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.left-section .icons a {
+    color: #1070FF;
+    font-size: 30px;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+
+.left-section .icons a:hover {
+    color: #1070ff90;
+    transform: translateY(-5px);
+}
+
+.right-section {
+    flex: 1;
+}
+
+.right-section img {
+    width: 450px;
+    position: absolute;
+    bottom: -20px;
+    right: 12%;
+}
+
+.right-section .splash{
+    position: relative;
+    bottom: -90px;
+    right: -10px;
+    transform: rotate(-35deg);
+    width: 650px;
+}
+
+.glass{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: 0 8px 32px 0 rgba(86, 212, 250, 0.37);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.3s ease;
+}
+.glass-icons-1 {
+    position: absolute;
+    top: 60%;
+    right: 38%;
+}
+
+.glass-icons-1:hover {
+    transform: translateY(-5px);
+}
+
+.glass-icons-1 img {
+    width: 50px;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.glass-icons-1 img:hover {
+    transform: rotate(360deg);
+}
+
+.glass-icons-2 {
+    
+    position: absolute;
+    top: 37%;
+    right: 70px;
+}
+
+.glass-icons-2:hover {
+    transform: translateY(-5px);
+}
+
+.glass-icons-2 img {
+    width: 50px;
+    margin-right: 10px;
+}
+
